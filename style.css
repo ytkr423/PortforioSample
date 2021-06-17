@@ -10,6 +10,9 @@ body{
 .color-green{
     color: #00ABAE;
 }
+.sub-title{
+    font-size: 32px;
+}
 
 /*
 headerのスタイルシート
@@ -28,4 +31,101 @@ headerのスタイルシート
     color: black;
     text-decoration: none;
     letter-spacing: 1px;
+}
+/*
+mainタグのスタイルシート
+*/
+.block-main{
+    text-align: center;
+    margin: 100px 0;
+
+}
+/*
+profileのスタイルシート
+*/
+.item-list {
+    width: 100%;
+    max-width: 348px;
+    margin: 0 auto;
+}
+
+.item-list b {/*bタグの編集*/
+    display: block;/*インライン要素をブロック要素にし縦に並べる*/
+    font-size: 24px;
+    font-weight: normal;
+    margin:20px 0 30px ;
+
+}
+.item-list p {/*pタグの編集*/
+    font-size: 15px;
+    line-height: normal;
+    text-align: center;
+}
+.icon-list {
+    list-style: none;
+    width: 100%;
+    max-width: 247px;
+    margin: 30px auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+worksのスタイルシート
+*/
+.box-works {
+    margin: 80px 0;
+}
+.works-list {
+    list-style: none;
+    width: 100%;
+    max-width: 1076px;
+    margin: 30px auto;
+    padding: auto;
+    text-align: left;
+    overflow: hidden;
+}
+.works-list li{
+    display: block;
+    width: 100%;
+    max-width: 348px;
+    float: left;
+    margin-right: 15px;
+}
+.works-list li:last-child {
+    margin-right: 0;
+}
+.works-list li img {
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.works-list li h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+.works-list li span {
+    font-size: 10px;
+}
+.works-list li .link {
+   display: flex; 
+   justify-content: left;
+   align-items: left;
+   margin-top: 15px;
+}
+.works-list li .link a {
+    background-color: rgb(226, 226, 226);
+    padding: 5px 20px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+/*
+footerのスタイルシート*/
+.block-footer p {
+    clear: both;
+    text-align: center;
+    font-size: 15px;
+    margin: 50px 0 20px;
 }
